@@ -1,0 +1,52 @@
+body {
+    background-color: #01893f;
+    font-family: Futura, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.title h1 {
+    font-size: 36px;
+}
+
+.game-info {
+    margin: auto;
+    max-width: 400px;
+}
+
+.timer {
+    float: left;
+}
+
+.scoreboard {
+    float: right;
+}
+
+.grid {
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+    width: 456px; 
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    background-color: #01893f;
+    width: 150px;
+    height: 150px;
+}
+
+.reset-button {
+    background-color: #01893f;
+    color: white;
+    border: solid white 2px;
+    width: 150px;
+    height: 50px;
+}
