@@ -2,21 +2,20 @@
     <head>
         <title>Welcome to Whack-a-mole! by tn2388</title>
         <link rel="stylesheet" href="style.css">
-        <script>
-
-        </script>
     </head>
 
     <body>
         <div class="title"><h1>Welcome to Whack-a-mole!</h1></div>
 
         <div class="game-info">
-            <div class="timer"><h1>Timer:</h1></div>
-            <div class="scoreboard"><h1>Score:</h1></div>
+            <div class="timer-container"><h1>Timer: <span id="timer"></span></h1></div>
+            <script src="game.js"></script>
+
+            <div class="scoreboard-container"><h1 id="scoreboard">Score:</h1></div>
         </div>
 
         <div class="grid">
-            <div class="box"> <img src="hole.png"></div>
+            <div class="box"> <img src="mole.png"></div>
             <div class="box"> <img src="hole.png"></div>
             <div class="box"> <img src="hole.png"></div>
             <div class="box"> <img src="hole.png"></div>

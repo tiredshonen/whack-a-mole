@@ -18,11 +18,11 @@ body {
     max-width: 400px;
 }
 
-.timer {
+.timer-container {
     float: left;
 }
 
-.scoreboard {
+.scoreboard-container {
     float: right;
 }
 
