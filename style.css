@@ -43,6 +43,10 @@ body {
     height: 150px;
 }
 
+.mole {
+    background-color: pink;
+}
+
 .reset-button {
     background-color: #01893f;
     color: white;
