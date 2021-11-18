@@ -26,7 +26,7 @@ body {
     float: right;
 }
 
-.grid {
+#grid {
     text-align: center;
     margin: auto;
     padding: 10px 0;
@@ -49,4 +49,18 @@ body {
     border: solid white 2px;
     width: 150px;
     height: 50px;
+}
+
+.reset-button:active{
+    background-color: lightgreen;
+}
+.game-over {
+    background-color: red;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+    margin: auto;
+    padding: 10px 0;
+    width: 400px; 
+    height: 400px;
 }
