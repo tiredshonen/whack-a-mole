@@ -1,5 +1,5 @@
 //Instance variables 
-const minutes = 0.1;
+const minutes = 1;
 let totalTime = minutes * 60; ; 
 let score = 0; 
 let moleBoxId = null; 
