@@ -1,12 +1,12 @@
 //Fetch HTML elements
 const timerElement = document.getElementById('timer'); 
 const scoreElement = document.getElementById('scoreboard'); 
-let boxElement = document.querySelectorAll('.box');
 const resetButtonElement = document.getElementById('reset-button'); 
 const gridElement = document.getElementById('grid');
+let boxElement = document.querySelectorAll('.box');
 
 //Instance variables 
-const minutes = 0.1;
+const minutes = 1;
 let totalTime = minutes * 60; ; 
 let score = 0; 
 scoreElement.innerHTML = score;
@@ -41,7 +41,7 @@ function getRandomMole() {
     
     //After a certain amount of time, clear mole for the next mole
     setTimeout(() => {
-        document.getElementById(randomMole.id).innerHTML = '<img src="hole.png"/>';}, 750)
+        document.getElementById(randomMole.id).innerHTML = '<img src="hole.png"/>';}, 750);
     moleBoxId = randomMole.id;
     return moleBoxId; 
 }
